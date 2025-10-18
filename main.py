@@ -2,7 +2,6 @@ from random import random
 
 
 class Node:
-    __slots__ = ("value", "priority", "size", "left", "right", "sum")
 
     def __init__(self, value: int):
         self.value = value
